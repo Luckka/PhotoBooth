@@ -4,7 +4,8 @@ import 'package:photo_booth/app/core/theme/app_colors.dart';
 class TextFormFieldWidget extends StatelessWidget {
   final String text;
   final String image;
-  const TextFormFieldWidget({super.key, required this.text, required this.image});
+  final TextEditingController? controller;
+  const TextFormFieldWidget({super.key, required this.text, required this.image, this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -20,14 +21,13 @@ class TextFormFieldWidget extends StatelessWidget {
          ),
     
          child: Padding(
-           padding: const EdgeInsets.all(15.0),
-           child: Row(
-                
-            children: [
-              Image.asset(image),
-              SizedBox(width: 20),
-              Text(text),
-            ],
+           padding: const EdgeInsets.all(8.0),
+           child: TextFormField(
+            decoration: InputDecoration(
+              border: InputBorder.none,
+              hintText: text          ),
+            controller: controller,
+             
            ),
          ),
       ),

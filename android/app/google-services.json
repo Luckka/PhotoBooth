@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493326454243",
+    "project_id": "photobooth-ca470",
+    "storage_bucket": "photobooth-ca470.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493326454243:android:1c9749d36d9f8b5852a4d6",
+        "android_client_info": {
+          "package_name": "com.example.photo_booth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKU3nHERues0bOvV7Id_fDoemlrofF_fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
