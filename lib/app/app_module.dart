@@ -1,7 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:photo_booth/app/core/shared/app_routes.dart';
 import 'package:photo_booth/app/modules/login/login_module.dart';
-import 'package:photo_booth/app/modules/splash/splash_module.dart';
+import 'package:photo_booth/app/modules/onboarding/splash_module.dart';
 
 import 'modules/login/presenter/pages/sign_up_page.dart';
 import 'modules/login/presenter/services/auth_service.dart';

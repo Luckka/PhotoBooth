@@ -15,7 +15,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 3),(){
-      Modular.to.navigate(AppRoutes.login);
+      Modular.to.navigate(AppRoutes.onboarding);
     }); 
   }
   @override
