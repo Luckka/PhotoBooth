@@ -59,7 +59,9 @@ class _LoginPageState extends State<LoginPage> {
                   image: 'assets/icons/message_icon.png'),
               SizedBox(height: 36),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Modular.to.navigate(AppRoutes.home);
+                },
                 child: Center(
                   child: Container(
                     width: 271,

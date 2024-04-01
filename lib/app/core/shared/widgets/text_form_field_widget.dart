@@ -14,7 +14,7 @@ class TextFormFieldWidget extends StatelessWidget {
         width: 317,
         height: 56,
          decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(15),
           border: Border.all(
     
           ),
